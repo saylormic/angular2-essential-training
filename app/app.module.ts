@@ -1,3 +1,4 @@
+import { CategoryListPipe } from './category-list.pipe';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,7 +15,8 @@ import { FavoriteDirective } from './favorite.directive';
     AppComponent,
     MediaItemComponent,
     MediaItemListComponent,
-    FavoriteDirective
+    FavoriteDirective,
+    CategoryListPipe
   ],
   bootstrap: [
     AppComponent
