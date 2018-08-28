@@ -1,3 +1,4 @@
+import { MediaItemService } from './media-item.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -24,6 +25,9 @@ import { MediaItemFormComponent } from './media-item-form.component';
   ],
   bootstrap: [
     AppComponent
+  ],
+  providers: [
+    MediaItemService
   ]
 })
 export class AppModule {}
